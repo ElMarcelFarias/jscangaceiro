@@ -62,11 +62,11 @@
     <script src="app/domain/negociacao/Negociacao.js"></script>
     <script>
 
-        var n1 = new Negociacao();
-        n1.data = new Date();
-        n1.quantidade = 10;
-        n1.valor = 200.50;
-        console.log(n1);
+        var n1 = new Negociacao(new Date(), 5, 700);
+        console.log(n1.quantidade);
+        console.log(n1.data);
+        console.log(n1.valor);
+        console.log(n1.volume);
 
     </script>
 </body>
